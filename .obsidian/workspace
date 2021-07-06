@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AIML/Time Series Forcasting.md",
+            "file": "AIML/MSCRED.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AIML/Time Series Forcasting.md",
+            "file": "AIML/MSCRED.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AIML/Time Series Forcasting.md",
+                "file": "AIML/MSCRED.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,10 +101,12 @@
   },
   "active": "4fa3c3d6f4d64ba3",
   "lastOpenFiles": [
+    "AIML/MSCRED.md",
+    "AIML/Untitled.md",
     "AIML/Time Series Forcasting.md",
+    "Untitled.md",
     "AIML/Time Series.md",
     "CompSci/CompSci Basics.md",
-    "Untitled.md",
     "CompSci Basics.md"
   ]
 }

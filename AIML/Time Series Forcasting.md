@@ -35,3 +35,33 @@ ARIMA, trend, seasonality. statsmodels
 
 ### [Using ARIMA](https://github.com/bnsreenu/python_for_microscopists/blob/master/163-Intro_to_time_series_Forecasting_using_ARIMA.py)
 pmdarima
+
+# Long-Short-Term Memory (LSTM)
+LSTM is a form of RNN recurrent neural networks.
+
+As opposed to the feed forward network. RNN remembers the past
+![[Pasted image 20210623150459.png]]
+
+LSTM has forget gate, input gate and output gate
+![[Pasted image 20210623151803.png]]
+
+![[Pasted image 20210623151820.png]]
+
+## In Keras
+
+``` python
+from keras.layers import LSTM
+from keras.models import Sequential
+
+model = Sequential()
+
+model.add(LSTM(units=50, return_sequences=True, input_shape=(X_train.shape[1], 1)))
+model.add(Dropout(0.2))
+```
+units: how many units of LSTM you want in the layer? (perhaps memory slots? how many previous data in the sequence to take into account?)
+![[Pasted image 20210623152027.png]]
+
+## Bidirectional LSTM
+to do 
+## ConvLSTM
+to do 
